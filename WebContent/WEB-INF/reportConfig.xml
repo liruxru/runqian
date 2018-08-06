@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<reportConfig>
+	<config>
+		<name>logConfig</name>
+		<value>/WEB-INF/runqianReportLog.properties</value>
+	</config>
+	
+	<!-- 许可证路径 -->
+	<config>
+		<name>license</name>
+		<value>Windows.lic</value>
+	</config>
+	<!-- 设计器设计导出的润乾报表文件文位置 -->
+	<config>
+		<name>reportFileHome</name>
+		<value>/reportFiles</value>
+	</config>
+	<config>
+		<name>semanticsFile</name>
+		<value>/WEB-INF/runqianSemanticFile.xml</value>
+	</config>
+	<config>
+		<name>JNDIPrefix</name>
+		<value>java:comp/env</value>
+	</config>
+	<config>
+		<name>dataSource</name>
+		<value></value>
+	</config>
+	<config>
+		<name>jspCharset</name>
+		<value>GBK</value>
+	</config>
+	<config>
+		<name>alwaysReloadDefine</name>
+		<value>yes</value>
+	</config>
+	<config>
+		<name>cachedParamsTimeout</name>
+		<value>120</value>
+	</config>
+	<config>
+		<name>cachedReportDir</name>
+		<value>E:\work\report\cached</value>
+	</config>
+	<config>
+		<name>cachedIdPrefix</name>
+		<value>A</value>
+	</config>
+	<config>
+		<name>cachedReportTimeout</name>
+		<value>120</value>
+	</config>
+	<config>
+		<name>maxCellNum</name>
+		<value>100000</value>
+	</config>
+	<config>
+		<name>maxConcurrentForReport</name>
+		<value>10</value>
+	</config>
+	<config>
+		<name>maxWaitForReport</name>
+		<value>10</value>
+	</config>
+	<config>
+		<name>maxWaitTimeForReport</name>
+		<value>30</value>
+	</config>
+	<config>
+		<name>appUrlPrefix</name>
+		<value></value>
+	</config>
+	<config>
+		<name>windir</name>
+		<value></value>
+	</config>
+	<config>
+		<name>errorPage</name>
+		<value>/myErrorPage.jsp</value>
+	</config>
+	<config>
+		<name>webServerType</name>
+		<value></value>
+	</config>
+	<config>
+		<name>jreInstallName</name>
+		<value></value>
+	</config>
+	<config>
+		<name>jreVersion</name>
+		<value></value>
+	</config>
+	<config>
+		<name>clusterMember</name>
+		<value></value>
+	</config>
+	<config>
+		<name>isCachedFileShared</name>
+		<value></value>
+	</config>
+	<config>
+		<name>olapGraphProfile</name>
+		<value></value>
+	</config>
+	<config>
+		<name>olapDir</name>
+		<value></value>
+	</config>
+
+	<!-- jdbc直接连接 -->
+	<!-- 特别注意，数据源名称要与设计器的数据源名称一致    否则会爆出数据源未设定异常 -->
+	<jdbc-ds-configs>
+	<jdbc-ds-config>
+		<name>mysql</name>
+		<db-type>2</db-type>
+		<connection-url>jdbc:mysql://localhost:3306/bos</connection-url>
+		<driver-class>com.mysql.jdbc.Driver</driver-class>
+		<user-name>root</user-name>
+		<password>admin</password>
+		<db-charset>utf-8</db-charset>
+		<client-charset>utf-8</client-charset>
+		<useSchema>false</useSchema>
+		<caseSentence>false</caseSentence>
+		<needTranContent>false</needTranContent>
+		<needTranSentence>false</needTranSentence>
+		</jdbc-ds-config>
+</jdbc-ds-configs>
+
+
+</reportConfig>
+
